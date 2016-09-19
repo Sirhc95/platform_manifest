@@ -53,7 +53,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project name="CypherOS/device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="n7.0" />
-  <project name="CyanogenMod/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="cm-14.0" />
+  <project name="CypherOS/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="n7.0" />
   <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="staging/cm-14.0" />
