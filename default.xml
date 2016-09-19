@@ -365,7 +365,7 @@
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="staging/cm-14.0-caf" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" groups="qcom" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
@@ -468,7 +468,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_system_bt" path="system/bt" groups="pdk" remote="github" revision="nougat" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
