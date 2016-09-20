@@ -33,7 +33,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="AICP/build" groups="pdk,tradefed" remote="aicp" >
+  <project path="build" name="CypherOS/build" groups="pdk,tradefed" remote="cypher" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
